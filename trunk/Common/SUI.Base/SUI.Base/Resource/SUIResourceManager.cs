@@ -10,11 +10,7 @@ namespace SUI.Base.Resource
         private static SUIResourceManager m_ResourceManager = null;
         private Hashtable m_Handlers = new Hashtable();
         public SUIResourceManager() :this(true)
-        {
-            //SUIWin32DialogStringHandler.Register(this);
-            //SUIWin32StringHandler.Register(this);
-            //SUIManagedStringHandler.Register(this);
-        }
+        {}
         public SUIResourceManager(bool isDefaultHandler)
         {
             if (isDefaultHandler)
