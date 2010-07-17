@@ -1,6 +1,6 @@
 /*
 This .dll implements functionality that get position from text on some window using Hook API call technology.
-Completed by Neil Wang.
+Completed by Perry Wang.
 */
 #include "stdafx.h"
 #include "detours.h"
