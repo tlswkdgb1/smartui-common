@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SUI.Base")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A lightweight UI automation library")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Business Objects")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SUI.Base")]
-[assembly: AssemblyCopyright("Copyright © Business Objects 2007")]
+[assembly: AssemblyCopyright("Perry Wang; Shawn Chen; Dixon Hu")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
