@@ -880,9 +880,9 @@ namespace SUI.Base
         {
             get
             {
-                StringBuilder sb = new StringBuilder(sbmax);
-                SUIWinAPIs.GetWindowText(this.hwnd, sb, sb.Capacity);
-                return sb.ToString();
+                StringBuilder text = new StringBuilder(sbmax);
+                SUIWinAPIs.SendMessage(this.WindowHandle, SUIMessage.WM_GETTEXT, text.Capacity, text);
+                return text.ToString();
             }
         }
 
